@@ -16,6 +16,7 @@ export default function Login() {
 
   return (
     <div className="bg-blue-50 h-screen flex items-center">
+      <h1>Login</h1>
       <form className="w-64 mx-auto mb-12" onSubmit={handleSubmit}>
         <input value={username}
                onChange={ev => setUsername(ev.target.value)}
